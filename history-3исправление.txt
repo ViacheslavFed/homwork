@@ -1,0 +1,10 @@
+   0 touch /home/start.txt
+   1 cat > start.txt
+   2 date >> start.txt 
+   3 mkdir /opt/task
+   4 cp /home/start.txt /opt/task/
+   5 cat /etc/group | tail -4 >> start.txt 
+   6 cat start.txt 
+   7 ls -la / | tail -4 >> /opt/task/start.txt
+   8 cat start.txt 
+   9 history > /tmp/history.txt
